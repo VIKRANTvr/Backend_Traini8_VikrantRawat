@@ -1,4 +1,4 @@
-## Traini8 - Training Center API
+### Traini8 - Training Center API
 This project provides an API for managing training centers, their details, and the courses they offer. It is designed to interact with a MySQL database and exposes various endpoints for CRUD operations on training center data.
 
 ## Table of Contents
