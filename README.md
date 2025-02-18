@@ -42,31 +42,27 @@ Configure your database connection as follows:
 spring.datasource.url=jdbc:mysql://localhost:3306/traini8?useSSL=false&serverTimezone=UTC
 spring.datasource.username=root
 spring.datasource.password=root
-
-# Hibernate properties
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-Build and Run the Application:
 
-## Build and run the Spring Boot application using the command:
+## Build and Run the Application:
+
+Build and run the Spring Boot application using the command:
 
 The application will start running on http://localhost:8080.
 
 ## Database Setup
-To work with MySQL and view the data, you can use MySQL Workbench or any MySQL client.
+To work with MySQL and view the data, you can use MySQL Workbench.
 
 Create a database in MySQL Workbench:
 
 CREATE DATABASE traini8_db;
+
 Schema: The application will automatically create the necessary tables based on the entity classes during runtime (via Hibernate).
 
 ### API Testing with Postman
 You can test the APIs using Postman:
-
-## Import the Postman Collection:
-
-If you have a pre-configured collection, you can import it into Postman.
 
 ## POST Request - Create Training Center:
 
